@@ -1,0 +1,80 @@
+@keyframes runLine {
+  0% {
+    transform: translate(100%, 0);
+  }
+
+  50% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+header {
+  border-bottom: 1px solid $primaryColor;
+}
+
+.running-line {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  font-family: $primaryFont;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  color: $secondaryColor;
+  background-image: linear-gradient(to right, #274CD6, #CF63C6, #80D7C4);
+}
+
+.running-line-content {
+  animation: runLine 30s infinite linear forwards;
+}
+// .running-line-content__first-half, .running-line-content__second-half {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-around;
+//   align-items: center;
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   animation: runLine 30s infinite linear forwards;
+// }
+
+// .running-line-content__second-half {
+//   animation: 30s runLine 30s/2 infinite linear forwards;
+// }
+
+
+
+.flag-icon {
+  width: 10px;
+  height: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 82px;
+  padding: 0px 15px;
+}
+
+.burger {
+  padding: 0px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.burger-icon {
+  width: 54px;
+  height: 54px;
+}
+
+.navigation {
+  display: none;
+}

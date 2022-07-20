@@ -1,0 +1,35 @@
+.button {
+  border: 1px solid $primaryColor;
+  border-radius: 10px;
+
+  font-family: $primaryFont;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.35;
+  color: $primaryColor;
+  
+  &:hover,
+  &:focus {
+    transform: translate(2px, 2px);
+    box-shadow: 3px 3px $primaryColor;
+    cursor: pointer;
+  }
+}
+
+.header-button {
+  padding: 16px 27px;
+  background: $primaryBackgroundColor;
+  box-shadow: 5px 5px $primaryColor;
+
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-left: 10px;
+  }
+}
+
+.user-button {
+  display: none;
+}
