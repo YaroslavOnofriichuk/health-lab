@@ -1,0 +1,216 @@
+.examination-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+
+.examination-item {
+  width: calc((100% - 1 * 1) / 2);
+  border: 1px solid $primaryColor;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+}
+
+.examination-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 105%;
+  text-align: center;
+  letter-spacing: -3px;
+  margin-top: 21px;
+  margin-bottom: 18px;
+}
+
+.examination-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  margin-bottom: 17px;
+}
+
+.images-container {
+  position: relative;
+  width: 300px;
+  height: 250px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.examination-img {
+  width: 223px;
+  height: 141px;
+}
+
+.examination-icon {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+}
+
+.icon__urine {
+  left: 0;
+  top: 35px;
+}
+
+.icon__blood {
+  top: 10px;
+  right: 10px;
+}
+
+.icon__swab {
+  bottom: 0;
+  right: 15px;
+}
+
+.icon__second-urine {
+  bottom: 0;
+  left: 20px;
+}
+
+.icon__second-blood {
+  top: 10px;
+  right: 0;
+}
+
+.icon__second-swab {
+  top: 10px;
+  left: 0;
+}
+
+.examination-desktop {
+  display: none;
+}
+
+.cap {
+  width: 170px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cap-text {
+  width: 100px;
+  font-family: $primaryFont;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 0.92;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: $primaryColor;
+  text-align: center;
+}
+
+.cap-white {
+  background-image: url('/src/assets/images/cap-white.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.cap-orange {
+  background-image: url('/src/assets/images/cap-orange.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.cap-pink {
+  background-image: url('/src/assets/images/cap-pink.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.cap-blue {
+  background-image: url('/src/assets/images/cap-blue.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+@media screen and (min-width: 1440px) {
+  .examination-item {
+    width: 700px;
+    height: 590px;
+  }
+
+  .examination-title {
+    margin-top: 44px;
+    font-size: 48px;
+    line-height: 105%;
+  }
+
+  .examination-text {
+    width: 390px;
+    text-align: center;
+  }
+
+  .images-container {
+    width: 500px;
+    height: 300px;
+    padding-bottom: 70px;
+  }
+
+  .examination-img {
+    width: 320px;
+    height: 204px;
+  }
+
+  .icon__urine {
+    left: 50px;
+    top: 0;
+  }
+
+  .icon__blood {
+    top: 30px;
+    right: 0;
+  }
+
+  .icon__swab {
+    bottom: 40px;
+    right: 100px;
+  }
+
+  .icon__second-urine {
+    top: 70px;
+    left: 370px;
+  }
+  
+  .icon__second-blood {
+    top: 220px;
+    left: 110px
+  }
+  
+  .icon__second-swab {
+    top: 10px;
+    left: 0;
+  }
+
+  .icon__thirth-blood {
+    left: 50px;
+  }
+
+  .icon__fourth-urine {
+    right: 75px;
+    top: 70px;
+  }
+
+  .icon__fourth-swab {
+    left: 0;
+    top: 20px;
+  }
+
+  .examination-desktop {
+    display: flex;
+  }
+
+  .examination-mobile {
+    display: none;
+  }
+}

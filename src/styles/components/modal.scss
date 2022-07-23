@@ -1,0 +1,53 @@
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: $primaryBackgroundColor;
+  border: 1px solid $primaryColor;
+  border-radius: 15px;
+  padding: 63px 8px 28px 28px;
+  width: 305px;
+}
+.button-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: none;
+  background: transparent;
+  outline: none;
+  padding: 0;
+  cursor: pointer;
+}
+.button-close-icon {
+  width: 15px;
+  height: 15px;
+}
+.modal-item {
+  margin-bottom: 17px;
+  font-family: $primaryFont;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 2.0;
+
+  color: primaryColor;
+}
+.modal-user-button {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  background: $primaryBackgroundColor;
+  box-shadow: 5px 5px $primaryColor;
+
+  &:hover,
+  &:focus {
+    transform: translate(2px, 2px);
+    box-shadow: 3px 3px $primaryColor;
+    cursor: pointer;
+  }}
+  .modal-user-icon {
+    width: 22px;
+    height: 22px;
+  }

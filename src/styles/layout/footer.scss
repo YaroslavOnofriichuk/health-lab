@@ -1,0 +1,38 @@
+.footer {
+  position: sticky;
+  background-color: $primaryColor;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.footer__part-first {
+
+}
+
+.footer-navigation-item {
+  font-family: $primaryFont;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 2.32;
+
+  color: $primaryBackgroundColor;
+}
+.conditions-link {
+  font-family: $primaryFont;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1;
+
+  color: $primaryBackgroundColor;
+}
+
+.footer-form {
+  width: 340px;
+  height: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-form {
+    width: 322px;
+    height: 50px;
+  }
+}

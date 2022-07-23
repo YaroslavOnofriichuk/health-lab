@@ -1,0 +1,111 @@
+.mission-section {
+  background-color: $primaryColor;
+}
+.mission {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding-top: 15px;
+  padding-left: 18px;
+}
+.mission-title {
+  margin-top: 15px;
+  margin-bottom: 24px;
+  max-width: 350px;
+  font-family: $primaryFont;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -3px;
+
+  color: #FFFFFF;
+}
+
+.mission-title__orange {
+  font-family: $secondaryFont;
+  font-style: italic;
+  color: #F87C56;
+  
+}
+
+.mission-title__pink {
+  font-family: $secondaryFont;
+  font-style: italic;
+  color: #F5CABF;
+  
+}
+
+.mission-title__blue {
+  font-family: $secondaryFont;
+  font-style: italic;
+  color: #8ABADD;
+  
+}
+
+.mission-text {
+  max-width: 321;
+  margin-bottom: 20px;
+  font-family: $primaryColor;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+
+  color: #FFFFFF;
+}
+
+.mission-img {
+  width: 309px;
+  height: 373px;
+}
+.mission-button {
+  width: 159px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  background: #ECB3CB;
+  box-shadow: 5px 5px $secondaryColor;
+
+  &:hover,
+  &:focus {
+    box-shadow: 3px 3px $secondaryColor;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mission {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-right: 108px;
+    padding-left: 180px;
+  }
+
+  .mission-img {
+    margin-top: 64px;
+    margin-right: 100px;
+  }
+
+  .mission-title {
+    margin-top: 0;
+    margin-bottom: 28px;
+  }
+ 
+}
+
+@media screen and (min-width: 1110px) {
+  .mission {
+    padding-right: 117px;
+    padding-left: 205px;
+  }
+  .mission-img {
+    width: 477px;
+    height: 577px;
+    margin-right: 125px;
+  }
+
+}

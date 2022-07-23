@@ -1,0 +1,124 @@
+.join-section {
+  background: linear-gradient(98.6deg, #D9CFFF 0%, #EBF1FF 44.29%, #DDE6EF 100%);
+  border: 1px solid $primaryColor;
+}
+
+.join {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 65px 0px;
+}
+
+.icons-list {
+  margin-bottom: 30px;
+  height: 94px;
+  width: 284px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons-list-item-heart {
+  padding-top: 20px;
+}
+
+.icons-list-item-like {
+  padding-top: 10px;
+}
+
+.heart-icon {
+  width: 68px;
+  height: 68px;
+}
+
+.chat-icon {
+  width: 105px;
+  height: 73px;
+}
+
+.like-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.join-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.05;
+  letter-spacing: -3px;
+  color: #F68D2E;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.join-subtitle {
+  font-family: $secondaryFont;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.05;
+  letter-spacing: -3px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.join-text {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.join-form {
+  width: 340px;
+  height: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .join {
+    padding: 96px 0px 120px 0px;
+  }
+
+  .icons-list {
+    height: 180px;
+    width: 530px;
+  }
+
+  .icons-list-item-heart {
+    padding-top: 40px;
+  }
+
+  .icons-list-item-like {
+    padding-top: 20px;
+  }
+
+  .heart-icon {
+    width: 132px;
+    height: 132px;
+  }
+
+  .chat-icon {
+    width: 202px;
+    height: 142px;
+  }
+
+  .like-icon {
+    width: 115px;
+    height: 115px;
+  }
+
+  .join-title {
+    font-size: 60px;
+  }
+
+  .join-subtitle {
+    font-size: 48px;
+    margin-bottom: 15px;
+  }
+
+  .join-text {
+    margin-bottom: 15px;
+  }
+
+  .join-form {
+    width: 405px;
+  }
+}
