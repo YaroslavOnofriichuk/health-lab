@@ -1,5 +1,14 @@
 header {
   border-bottom: 1px solid $primaryColor;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: $primaryBackgroundColor;
+  z-index: 100;
+}
+
+main {
+  padding-top: 82px;
 }
 
 .header {

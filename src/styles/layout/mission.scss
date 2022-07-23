@@ -19,28 +19,25 @@
   line-height: 1.2;
   letter-spacing: -3px;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .mission-title__orange {
   font-family: $secondaryFont;
   font-style: italic;
-  color: #F87C56;
-  
+  color: #f87c56;
 }
 
 .mission-title__pink {
   font-family: $secondaryFont;
   font-style: italic;
-  color: #F5CABF;
-  
+  color: #f5cabf;
 }
 
 .mission-title__blue {
   font-family: $secondaryFont;
   font-style: italic;
-  color: #8ABADD;
-  
+  color: #8abadd;
 }
 
 .mission-text {
@@ -53,7 +50,7 @@
   line-height: 1.6;
   letter-spacing: -0.01em;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .mission-img {
@@ -67,7 +64,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 15px;
-  background: #ECB3CB;
+  background: #ecb3cb;
   box-shadow: 5px 5px $secondaryColor;
 
   &:hover,
@@ -94,7 +91,6 @@
     margin-top: 0;
     margin-bottom: 28px;
   }
- 
 }
 
 @media screen and (min-width: 1110px) {
@@ -107,5 +103,4 @@
     height: 577px;
     margin-right: 125px;
   }
-
 }

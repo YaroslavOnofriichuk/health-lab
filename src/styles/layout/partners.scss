@@ -1,5 +1,5 @@
 .partners {
- padding: 40px 0;
+  padding: 40px 0;
 
   display: flex;
   flex-direction: column;
@@ -27,7 +27,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #F5CABF;
+  background: #f5cabf;
   box-shadow: 5px 5px $primaryColor;
 }
 
@@ -42,7 +42,6 @@
     padding-bottom: 22px;
     flex-direction: row;
     align-items: flex-start;
-    
   }
   .partners-list {
     gap: 70px;

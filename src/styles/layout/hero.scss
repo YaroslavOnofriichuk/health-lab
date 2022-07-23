@@ -1,5 +1,5 @@
 .hero-section {
-  background: linear-gradient(270deg, #CFCDCE 0%, #DADADC 44.29%, #DEDDE2 100%);
+  background: linear-gradient(270deg, #cfcdce 0%, #dadadc 44.29%, #dedde2 100%);
 }
 
 .hero {
@@ -39,12 +39,12 @@
 
 .hero-title__blue {
   font-family: $secondaryFont;
-  color: #307FE2;
+  color: #307fe2;
 }
 
 .hero-title__orange {
   font-family: $secondaryFont;
-  color: #F87C56;
+  color: #f87c56;
 }
 
 .hero-right-side {
@@ -58,7 +58,12 @@
 
 @media screen and (min-width: 768px) {
   .hero-section {
-    background: linear-gradient(180deg, #DEDDE2 0%, #E3E6ED 44.29%, #DDE6EF 100%);
+    background: linear-gradient(
+      180deg,
+      #dedde2 0%,
+      #e3e6ed 44.29%,
+      #dde6ef 100%
+    );
   }
 
   .hero {

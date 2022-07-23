@@ -1,5 +1,10 @@
 .join-section {
-  background: linear-gradient(98.6deg, #D9CFFF 0%, #EBF1FF 44.29%, #DDE6EF 100%);
+  background: linear-gradient(
+    98.6deg,
+    #d9cfff 0%,
+    #ebf1ff 44.29%,
+    #dde6ef 100%
+  );
   border: 1px solid $primaryColor;
 }
 
@@ -47,7 +52,7 @@
   font-size: 36px;
   line-height: 1.05;
   letter-spacing: -3px;
-  color: #F68D2E;
+  color: #f68d2e;
   margin-bottom: 10px;
   text-align: center;
 }
