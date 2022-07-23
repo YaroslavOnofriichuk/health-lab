@@ -6,11 +6,18 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack --mode development",
     "build": "cross-env NODE_ENV=production webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "watch": "cross-env NODE_ENV=development webpack --mode development --watch",
     "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open",
     "stats": "webpack --json > stats.json && webpack-bundle-analyzer stats.json"
   },
   "browserslist": "> 0.25%, not dead",
+  "homepage": "http://YaroslavOnofriichuk.github.io/health-lab",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YaroslavOnofriichuk/health-lab.git"
+  },
   "keywords": [
     "js",
     "javascript",
@@ -33,6 +40,7 @@
     "eslint": "^6.8.0",
     "eslint-loader": "^4.0.0",
     "file-loader": "^6.0.0",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^4.2.0",
     "less": "^3.11.1",
     "less-loader": "^5.0.0",
