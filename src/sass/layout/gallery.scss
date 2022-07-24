@@ -8,7 +8,7 @@
   position: sticky;
   height: 618px;
   overflow: hidden;
-  background-image: url("/src/images/gallery-bg-mobile.PNG");
+  background-image: url("/src/images/gallery-bg-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-left: 18px;
@@ -17,7 +17,7 @@
 
 .gallery-cap {
   margin: 0 auto;
-  background-image: url("/src/images/cap-white.PNG");
+  background-image: url("/src/images/cap-white.png");
   width: 170px;
   height: 50px;
   display: flex;
@@ -83,7 +83,7 @@
   }
 
   .gallery-item {
-    background-image: url("/src/images/gallery-bg-desktop.PNG");
+    background-image: url("/src/images/gallery-bg-desktop.png");
     padding-left: 8.33%;
     padding-right: 8.33%;
     display: flex;
