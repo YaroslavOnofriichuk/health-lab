@@ -3,3 +3,11 @@ node_js:
   - "lts/*"
   - "node"
 script: npm run build
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $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
+  local_dir: build
+  keep_history: true
+  on:
+    branch: main
