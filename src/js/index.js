@@ -1,4 +1,4 @@
-import '../sass/index.scss';
+// import '../sass/index.scss';
 
 const burgerButton = document.querySelector('[data-modal-open]');
 const backdrop = document.querySelector('[data-modal]');

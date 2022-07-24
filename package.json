@@ -5,7 +5,9 @@
   "homepage": "http://YaroslavOnofriichuk.github.io/health-lab",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /health-lab/"
+    "build": "parcel build src/*.html --public-url /health-lab/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
