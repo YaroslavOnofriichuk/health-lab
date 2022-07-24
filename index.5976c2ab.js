@@ -1,2 +1,0 @@
-const e=document.querySelector("[data-modal-open]"),t=document.querySelector("[data-modal]"),d=document.querySelector("[data-modal-close]");function n(){t.classList.toggle("is-hidden"),document.body.style.overflow=""}function o(e){"Escape"===e.code&&n()}e.addEventListener("click",(function(){t.classList.toggle("is-hidden"),document.body.style.overflow="hidden",window.addEventListener("keydown",o,{once:!0})})),d.addEventListener("click",n),t.addEventListener("click",(function(e){e.currentTarget===e.target&&n()}));
-//# sourceMappingURL=index.5976c2ab.js.map
