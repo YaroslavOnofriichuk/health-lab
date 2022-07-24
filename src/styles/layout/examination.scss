@@ -38,7 +38,6 @@
   position: relative;
   width: 300px;
   height: 250px;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,25 +110,25 @@
 }
 
 .cap-white {
-  background-image: url("/src/assets/images/cap-white.png");
+  background-image: url("/src/images/cap-white.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 
 .cap-orange {
-  background-image: url("/src/assets/images/cap-orange.png");
+  background-image: url("/src/images/cap-orange.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 
 .cap-pink {
-  background-image: url("/src/assets/images/cap-pink.png");
+  background-image: url("/src/images/cap-pink.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 
 .cap-blue {
-  background-image: url("/src/assets/images/cap-blue.png");
+  background-image: url("/src/images/cap-blue.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }

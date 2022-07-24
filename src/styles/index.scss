@@ -1,5 +1,5 @@
-@import "./utils/variables";
-@import "./base/common";
+@import "./utils/variables.scss";
+@import "./base/common.scss";
 @import "./base//container.scss";
 @import "./components/button";
 @import "./components/form.scss";
@@ -11,7 +11,7 @@
 @import "./layout/gallery.scss";
 @import "./layout/examination.scss";
 @import "./layout/join.scss";
-@import './layout/social.scss';
+@import "./layout/social.scss";
 @import "./layout/footer.scss";
 @import "./components/modal.scss";
 @import "./components/backdrop.scss";

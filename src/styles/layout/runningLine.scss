@@ -11,7 +11,7 @@
 .running-line div {
   display: flex;
   width: 200%;
-  animation: runLine 5s linear infinite;
+  animation: run 5s linear infinite;
 }
 
 .running-line p {
@@ -35,7 +35,7 @@
   height: 10px;
 }
 
-@keyframes runLine {
+@keyframes run {
   0% {
     transform: translateX(0);
   }
